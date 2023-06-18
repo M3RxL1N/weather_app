@@ -1,4 +1,4 @@
-let apiKey = "8b3c2188b1fe57f318bdcd6231e30d94";
+let apiKey = "08efd5663387b49ddd50dd8b0a1d4a3a";
 let apiUrl =
   "https://api.openweathermap.org/data/2.5/weather?units=metric&lang=en";
 
