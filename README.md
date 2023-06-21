@@ -1,7 +1,7 @@
 # Description
 Weather app - веб приложение погоды которое предоставляет прогноз на текущий день в указанном городе 
 # Screenshot
-![preview](https://github.com/M3RxL1N/weather_app/tree/main/images/preview.png)
+![preview](https://raw.githubusercontent.com/M3RxL1N/weather_app/main/images/preview.png)
 ## Target
 Закрепить изученный материал по Javascript и CSS, а также работу над приложением в браузере.
 ## Plan
