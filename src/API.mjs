@@ -1,10 +1,11 @@
 class weatherData {
-    constructor(city, mainObj, wind, weather)
+    constructor(city, mainObj, wind, weather, dt)
     {
         this.city = city
         this.mainObj = mainObj
         this.wind = wind
         this.weather = weather
+        this.dt = dt
     }
 }
 
@@ -38,11 +39,12 @@ class openWetherAPI {
                 city,
                 {temp: "None", humidity: "None", pressure: "None"},
                 "None",
+                "None",
                 "None"
             )
         } else {
-            let {name, main, wind, weather} = await this.APIRequest(city)
-            return new weatherData(name, main, wind.speed, weather[0].main)
+            let {name, main, wind, weather,dt} = await this.APIRequest(city)
+            return new weatherData(name, main, wind.speed, weather[0].main, dt)
         }
     }
 }
