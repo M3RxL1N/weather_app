@@ -27,8 +27,7 @@ class openWetherAPI {
           return await response.json();
 
         } catch (error) {
-          console.log(error)
-          return error
+            return document.querySelector(".error").innerHTML = "Error: Сity not found"
         }
     }
 

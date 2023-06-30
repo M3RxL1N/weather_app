@@ -32,8 +32,8 @@ async function checkWeather(city) {
   }
 
   document.querySelector(".weather").style.display = "block";
-  document.querySelector(".err").style.display = "none";
-
+  document.querySelector(".error").innerHTML = "";
+  
   // Store the Celsius value
   cel = tempCelcius;
 }
