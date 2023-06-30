@@ -27,7 +27,7 @@ class openWetherAPI {
           return await response.json();
 
         } catch (error) {
-            return document.querySelector(".error").innerHTML = "Error: Сity not found"
+            return document.querySelector(".error").innerHTML = "Error: Invalid city name"
         }
     }
 
